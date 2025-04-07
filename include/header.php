@@ -30,7 +30,7 @@
         <div class="main-navigation">
             <nav class="navbar navbar-expand-lg">
                 <div class="container position-relative">
-                    <a class="navbar-brand" href="index-2.html">
+                    <a class="navbar-brand" href="index.php">
                         <img src="<?php echo $logo;?>" alt="logo">
                     </a>
                     <div class="mobile-menu-right">
@@ -85,7 +85,7 @@
                                                         <li><a class="dropdown-item" href="dsi_course.php">D. S. I.</a></li>
                                                         <li><a class="dropdown-item" href="bpt_course.php">B. P. T.</a></li>
                                                         <li><a class="dropdown-item" href="bhm_course.php">B. H. M.</a></li>
-                                                        <li><a class="dropdown-item" href="bock_course.php">B. O. C. T.</a></li>
+                                                        <li><a class="dropdown-item" href="boct_course.php">B. O. C. T.</a></li>
                                                         <li><a class="dropdown-item" href="bmlt_course.php">B. M. L. T.</a></li>
                                                         <li><a class="dropdown-item border-bottom_new" href="bot_course.php">B. O. T.</a></li>
                                                     </ul>
@@ -111,7 +111,7 @@
                         </ul>
                         <div class="nav-right">
                             <div class="nav-right-btn mt-2">
-                                <a href="application-form.html" class="theme-btn"><span
+                                <a href="application-form.php" class="theme-btn"><span
                                         class="fal fa-pencil"></span>Apply Now</a>
                             </div>
                         </div>

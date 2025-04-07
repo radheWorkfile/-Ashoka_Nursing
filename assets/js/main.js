@@ -1,24 +1,16 @@
-/*=====================================================
-Template Name   : Eduka
-Description     : School, College, University And Courses HTML5 Template
-Author          : LunarTemp
-Version         : 1.0
-=======================================================*/
+(function($) {
 
-
-(function ($) {
-    
     "use strict";
 
     // multi level dropdown menu
-    $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
+    $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
         if (!$(this).next().hasClass('show')) {
             $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
         }
         var $subMenu = $(this).next('.dropdown-menu');
         $subMenu.toggleClass('show');
 
-        $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+        $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
             $('.dropdown-submenu .show').removeClass('show');
         });
         return false;
@@ -26,8 +18,8 @@ Version         : 1.0
 
 
     // data-background    
-    $(document).on('ready', function () {
-        $("[data-background]").each(function () {
+    $(document).on('ready', function() {
+        $("[data-background]").each(function() {
             $(this).css("background-image", "url(" + $(this).attr("data-background") + ")");
         });
     });
@@ -35,10 +27,10 @@ Version         : 1.0
 
     // navbar Search
     if ($('.search-box-outer').length) {
-        $('.search-box-outer').on('click', function () {
+        $('.search-box-outer').on('click', function() {
             $('body').addClass('search-active');
         });
-        $('.close-search').on('click', function () {
+        $('.close-search').on('click', function() {
             $('body').removeClass('search-active');
         });
     }
@@ -64,35 +56,35 @@ Version         : 1.0
         ],
 
         onInitialized: function(event) {
-        var $firstAnimatingElements = $('.owl-item').eq(event.item.index).find("[data-animation]");
-        doAnimations($firstAnimatingElements);
+            var $firstAnimatingElements = $('.owl-item').eq(event.item.index).find("[data-animation]");
+            doAnimations($firstAnimatingElements);
         },
 
-        onChanged: function(event){
-        var $firstAnimatingElements = $('.owl-item').eq(event.item.index).find("[data-animation]");
-        doAnimations($firstAnimatingElements);
+        onChanged: function(event) {
+            var $firstAnimatingElements = $('.owl-item').eq(event.item.index).find("[data-animation]");
+            doAnimations($firstAnimatingElements);
         }
     });
 
     //hero slider do animations
     function doAnimations(elements) {
-		var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-		elements.each(function () {
-			var $this = $(this);
-			var $animationDelay = $this.data('delay');
-			var $animationDuration = $this.data('duration');
-			var $animationType = 'animated ' + $this.data('animation');
-			$this.css({
-				'animation-delay': $animationDelay,
-				'-webkit-animation-delay': $animationDelay,
+        var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        elements.each(function() {
+            var $this = $(this);
+            var $animationDelay = $this.data('delay');
+            var $animationDuration = $this.data('duration');
+            var $animationType = 'animated ' + $this.data('animation');
+            $this.css({
+                'animation-delay': $animationDelay,
+                '-webkit-animation-delay': $animationDelay,
                 'animation-duration': $animationDuration,
                 '-webkit-animation-duration': $animationDuration,
-			});
-			$this.addClass($animationType).one(animationEndEvents, function () {
-				$this.removeClass($animationType);
-			});
-		});
-	}
+            });
+            $this.addClass($animationType).one(animationEndEvents, function() {
+                $this.removeClass($animationType);
+            });
+        });
+    }
 
 
     // testimonial-slider
@@ -188,14 +180,14 @@ Version         : 1.0
 
 
     // preloader
-    $(window).on('load', function () {
+    $(window).on('load', function() {
         $(".preloader").fadeOut("slow");
     });
 
 
     // fun fact counter
     $('.counter').countTo();
-    $('.counter-box').appear(function () {
+    $('.counter-box').appear(function() {
         $('.counter').countTo();
     }, {
         accY: -100
@@ -222,7 +214,7 @@ Version         : 1.0
 
 
     // scroll to top
-    $(window).on('scroll',function () {
+    $(window).on('scroll', function() {
         if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
             $("#scroll-top").addClass('active');
         } else {
@@ -230,14 +222,14 @@ Version         : 1.0
         }
     });
 
-    $("#scroll-top").on('click', function () {
+    $("#scroll-top").on('click', function() {
         $("html, body").animate({ scrollTop: 0 }, 1500);
         return false;
     });
 
 
     // navbar fixed top
-    $(window).on('scroll', function () {
+    $(window).on('scroll', function() {
         if ($(this).scrollTop() > 50) {
             $('.navbar').addClass("fixed-top");
         } else {
@@ -247,7 +239,7 @@ Version         : 1.0
 
 
     // project filter
-    $(window).on('load', function () {
+    $(window).on('load', function() {
         if ($(".filter-box").children().length > 0) {
             $(".filter-box").isotope({
                 itemSelector: '.filter-item',
@@ -256,13 +248,13 @@ Version         : 1.0
                 },
             });
 
-            $('.filter-btn').on('click', 'li', function () {
+            $('.filter-btn').on('click', 'li', function() {
                 var filterValue = $(this).attr('data-filter');
                 $(".filter-box").isotope({ filter: filterValue });
             });
 
-            $(".filter-btn li").each(function () {
-                $(this).on("click", function () {
+            $(".filter-btn li").each(function() {
+                $(this).on("click", function() {
                     $(this).siblings("li.active").removeClass("active");
                     $(this).addClass("active");
                 });
@@ -272,25 +264,25 @@ Version         : 1.0
 
 
     // progress bar
-    $(document).ready(function(){
+    $(document).ready(function() {
         var progressBar = $('.progress');
-        if(progressBar.length) {
-        progressBar.each(function () {
-            var Self = $(this);
-            Self.appear(function () {
-            var progressValue = Self.data('value');
-            Self.find('.progress-bar').animate({
-                width:progressValue+'%'           
-            }, 1000);
-            });
-        })
+        if (progressBar.length) {
+            progressBar.each(function() {
+                var Self = $(this);
+                Self.appear(function() {
+                    var progressValue = Self.data('value');
+                    Self.find('.progress-bar').animate({
+                        width: progressValue + '%'
+                    }, 1000);
+                });
+            })
         }
     });
 
 
     // countdown
     if ($('#countdown').length) {
-        $('#countdown').countdown('2030/01/30', function (event) {
+        $('#countdown').countdown('2030/01/30', function(event) {
             $(this).html(event.strftime('' + '<div class="row">' + '<div class="col countdown-single">' + '<h2 class="mb-0">%-D</h2>' + '<h5 class="mb-0">Day%!d</h5>' + '</div>' + '<div class="col countdown-single">' + '<h2 class="mb-0">%H</h2>' + '<h5 class="mb-0">Hours</h5>' + '</div>' + '<div class="col countdown-single">' + '<h2 class="mb-0">%M</h2>' + '<h5 class="mb-0">Minutes</h5>' + '</div>' + '<div class="col countdown-single">' + '<h2 class="mb-0">%S</h2>' + '<h5 class="mb-0">Seconds</h5>' + '</div>' + '</div>'));
         });
     }
@@ -302,13 +294,3 @@ Version         : 1.0
 
 
 })(jQuery);
-
-
-
-
-
-
-
-
-
-

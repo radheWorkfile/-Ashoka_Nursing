@@ -1,5 +1,5 @@
     <!DOCTYPE html>
-  
+    <?php include('default.php');?>
     <html lang="en">
     <head>
     <meta charset="UTF-8">
@@ -7,43 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title>B. Sc. Nursing | <?php echo $heading;?></title>
+    <title>B. P. T. | <?php echo $heading;?></title>
     <?php include('include/css.php');?>
     </head>
-
     <body>
     <?php include('include/header.php');?>
 
          <!-- breadcrumb -->
          <div class="site-breadcrumb" style="background: url(assets/images/bg/anm_banner.jpg)">
             <div class="container">
-                <h2 class="breadcrumb-title"> B. Sc. Nursing </h2>
+                <h2 class="breadcrumb-title"> B. P. T. </h2>
                 <ul class="breadcrumb-menu">
                     <li><a href="index.php">Home</a></li>
-                    <li class="active">B. Sc. Nursing</li>
+                    <li class="active">B. P. T.</li>
                 </ul>
             </div>
         </div>
         <!-- breadcrumb end -->
 
         <!-- about area -->
-        <div class="about-area py-5 mt-5">
+        <div class="about-area py-5">
         <div class="container">
             <div class="row g-4 align-items-center">
-            <h2 class="site-title"style="font-size: 35px;">
-            B. Sc. Nursing  <span>[ Bachelor of Science in Nursing ]</span> </h2>
             <div class="col-lg-7">
-                <div class="about-right wow fadeInRight" data-wow-delay=".25s">
-                <div class="site-heading mb-3">
-                    
-                </div>
-                <p class="about-text text-justify">
-                B.Sc. Nursing is an undergraduate program at <b> Ashoka Nursing & Paramedical College</b> designed to prepare students to become skilled and compassionate nurses, capable of delivering high-quality healthcare in diverse clinical and community settings. The course covers a wide range of subjects, including Anatomy, Physiology, Pharmacology, and Nursing Research, ensuring that students are well-equipped to manage patient care effectively and meet the demands of modern healthcare environments.
-                </p>
-                <p class="about-text text-justify mt-4">
-                The B.Sc. Nursing curriculum combines theoretical knowledge with hands-on clinical training, providing a strong foundation in nursing practice. It emphasizes patient-centered care, clinical decision-making, and healthcare management, preparing graduates to excel in hospitals, clinics, and other healthcare facilities. With expert faculty and state-of-the-art facilities, Ashoka Nursing & Paramedical College ensures that students develop the competencies needed to thrive in various nursing roles within the healthcare system.
-                </p>
-                </div>
+            <div class="about-right wow fadeInRight" data-wow-delay=".25s">
+            <div class="site-heading mb-3">
+            <h2 class="site-title"style="font-size: 35px;"> B. P. T. <span>[ Bachelor of Physiotherapy ]</span> </h2>
+            </div>
+            <p class="about-text text-justify">
+            The Bachelor of Physiotherapy (B.P.T.) program at <b>Ashoka Nursing & Paramedical College</b> is an undergraduate course designed to prepare students for a career in physiotherapy. It covers key subjects like human anatomy, biomechanics, physiotherapy techniques, rehabilitation, and patient care, with a balance of theoretical knowledge and hands-on clinical experience.
+            </p>
+            <p class="about-text text-justify mt-4">
+            The program emphasizes practical training in hospitals, rehabilitation centers, sports facilities, and community health settings. With expert faculty and modern facilities, students develop strong clinical skills and compassionate care, preparing them for careers as physiotherapists, rehabilitation specialists, sports therapists, and healthcare educators.
+            </p>
+            </div>
             </div>
 
             <div class="col-lg-1"></div>
@@ -52,8 +49,8 @@
                 <div class="wow fadeInLeft" data-wow-delay=".25s">
                 <div class="about-img">
                     <div class="row g-4">
-                    <div class="col-md-6 m-top-3" style="width: 100%">
-                        <img class="img-1" src="assets/images/course-img/03.jpg" alt="" />
+                    <div class="col-md-6" style="width: 100%">
+                        <img class="img-1" src="assets/images/course-img/10.jpg" alt="" />
                     </div>
                     </div>
                 </div>
@@ -78,7 +75,7 @@
             <div class="col-md-6" style="width: 100%">
             <div class="position-relative bg-info py-3 px-3">
             <img src="assets/images/anm.jpg" alt="" class="img-fluid rounded-3" style="z-index: -2;">
-            <p class="text-center mt-3 font-weight-6 text-white">B. Sc. Nursing</p>
+            <p class="text-center mt-3 font-weight-6 text-white">B. P. T. [ Bachelor of Physiotherapy ]</p>
             </div>
             </div>
             </div>
@@ -123,9 +120,6 @@
             </div>
             </div>
             <!-- about area end -->
-
-
-
 
    <?php include('include/all_courses.php');?>
    <?php include('include/footer.php');?>

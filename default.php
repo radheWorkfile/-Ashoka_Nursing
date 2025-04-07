@@ -1,17 +1,16 @@
-<!--  p - data-aos="fade-up" data-aos-duration="3000" /  h - text-anim  -->
-<!-- Eduka - School, College, University And Courses HTML5 Template -->
-<?php
-$logo = 'assets/images/logo.png';
-$favicon = 'assets/images/logo.png';
-$footerText = 'Ashoka Nursing & Paramedical College provides exceptional healthcare education, combining comprehensive theoretical knowledge with practical hands-on training. We empower students with the skills, expertise, and confidence to excel in nursing and paramedical professions, fostering a new generation of dedicated healthcare professionals.';
-$company = '<span> Ashoka Nursing </span> &  Paramedical College ';
-$company_1 = 'ASHOKA NURSING & PARAMEDICAL COLLEGE';
-$heading = 'Ashoka Nursing & Paramedical College';
-$mobile_1 = '+91 9430679729';
-$mobile_2 = '9308819517';
-$email = 'anpc85@gmail.com';
-$address = "Lachchu Bigha, Nagarnausa, Nalanda - 801305";
-$copyright = "© copyright 2025, ANPC. All rights reserved ";
+
+<?php 
+ $logo = 'assets/images/logo.png';
+ $favicon = 'assets/images/logo.png';
+ $footerText = 'Ashoka Nursing & Paramedical College provides exceptional healthcare education, combining comprehensive theoretical knowledge with practical hands-on training. We empower students with the skills, expertise, and confidence to excel in nursing and paramedical professions, fostering a new generation of dedicated healthcare professionals.';
+ $company = '<span> Ashoka Nursing </span> &  Paramedical College ';
+ $company_1 = 'ASHOKA NURSING & PARAMEDICAL COLLEGE';
+ $heading = 'Ashoka Nursing & Paramedical College';
+ $mobile_1 = '+91 9430679729';
+ $mobile_2 = '9308819517';
+ $email = 'anpc85@gmail.com';
+ $address = "Lachchu Bigha, Nagarnausa, Nalanda - 801305";
+ $copyright  = "© copyright 2025, ANPC. All rights reserved ";
 
 $mail = 'mailto:anpc85@gmail.com';
 $tel = 'tel:9430679729';

@@ -38,10 +38,10 @@
                     G. N. M. <span> [ General Nursing and Midwifery ] </span> </h2>
                 </div>
                 <p class="about-text text-justify">
-                General Nursing and Midwifery (G. N. M.) is a vital medical specialty that focuses on providing comprehensive care to the sick, with a special emphasis on maternity care, supporting mothers throughout pregnancy and childbirth. As a key part of the healthcare sector, G. N. M. professionals are crucial in maintaining the smooth functioning of healthcare institutions such as hospitals, clinics, dispensaries, and NGOs.
+                General Nursing and Midwifery (G.N.M.) is a vital medical specialty that focuses on providing comprehensive care to the sick, with a special emphasis on maternity care, supporting mothers throughout pregnancy and childbirth. As a key part of the healthcare sector, G.N.M. professionals play a crucial role in maintaining the smooth functioning of healthcare institutions such as hospitals.
                 </p>
                 <p class="about-text text-justify mt-4">
-                The curriculum of the G. N. M. course encompasses a wide array of subjects, including Anatomy & Physiology, Biological Science, Microbiology, Behavioral Science, Sociology, Psychology, Fundamentals of Nursing, and First Aid. These subjects provide students with the essential knowledge and practical skills needed to deliver effective, compassionate, and professional care to patients.
+                At <b>Ashoka Nursing & Paramedical College</b>, the G.N.M. program offers a well-rounded curriculum covering subjects like Anatomy & Physiology, Biological Science, Microbiology, Behavioral Science, Sociology, Psychology, Fundamentals of Nursing, and First Aid. This diverse coursework equips students with the essential knowledge and practical skills needed to deliver effective, compassionate, and professional care, preparing them for rewarding careers in various healthcare settings.
                 </p>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                 <div class="about-img">
                     <div class="row g-4">
                     <div class="col-md-6" style="width: 100%">
-                        <img class="img-1" src="assets/images/course-img/01.jpg" alt="" />
+                        <img class="img-1" src="assets/images/course-img/02.jpg" alt="" />
                     </div>
                     </div>
                 </div>
