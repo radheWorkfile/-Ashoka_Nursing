@@ -37,10 +37,10 @@
                     A. N. M. <span> [ Auxiliary Nursing Midwifery ] </span> </h2>
                 </div>
                 <p class="about-text text-justify">
-                Nursing is a vital medical specialty focused on providing care for the sick, with a particular emphasis on maternity care, which supports mothers during pregnancy and childbirth. As an essential part of the healthcare sector, nursing professionals play a crucial role in ensuring the smooth operation of health organizations such as hospitals, dispensaries, and NGOs.
+                Nursing is a vital medical specialty focused on providing care for the sick, with a strong emphasis on maternity care, supporting mothers during pregnancy and childbirth. As an essential part of the healthcare sector, nursing professionals play a crucial role in ensuring the smooth operation of health organizations such as hospitals.
                 </p>
                 <p class="about-text text-justify mt-4">
-                The curriculum of this course covers a wide range of subjects, including Anatomy & Physiology, Biological Science, Microbiology, Behavioral Science, Sociology, Psychology, Fundamentals of Nursing, and First Aid, equipping students with the knowledge and skills required to provide effective and compassionate care to patients.
+                At <b>Ashoka Nursing & Paramedical College</b>, the nursing program offers a comprehensive curriculum covering subjects like Anatomy & Physiology, Biological Science, Microbiology, Behavioral Science, Sociology, Psychology, Fundamentals of Nursing, and First Aid. This diverse coursework equips students with the knowledge and practical skills needed to deliver effective, compassionate care, preparing them for fulfilling careers in various healthcare settings.
                 </p>
                 </div>
             </div>

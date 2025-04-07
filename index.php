@@ -54,9 +54,9 @@
                                     Ashoka Nursing & Paramedical College provides comprehensive healthcare education, developing compassionate and proficient professionals for the industry.
                                     </p>
                                     <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
-                                        <a href="about.html" class="theme-btn">About More<i
+                                        <a href="about.php" class="theme-btn">About More<i
                                                 class="fas fa-arrow-right-long"></i></a>
-                                        <a href="contact.html" class="theme-btn theme-btn2">Learn More<i
+                                        <a href="contact.php" class="theme-btn theme-btn2">Learn More<i
                                                 class="fas fa-arrow-right-long"></i></a>
                                     </div>
                                 </div>
@@ -79,9 +79,9 @@
                                     With a focus on excellence, Ashoka Nursing & Paramedical College equips students with the skills to excel in healthcare professions.
                                     </p>
                                     <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
-                                        <a href="about.html" class="theme-btn">About More<i
+                                        <a href="about.php" class="theme-btn">About More<i
                                                 class="fas fa-arrow-right-long"></i></a>
-                                        <a href="contact.html" class="theme-btn theme-btn2">Learn More<i
+                                        <a href="contact.php" class="theme-btn theme-btn2">Learn More<i
                                                 class="fas fa-arrow-right-long"></i></a>
                                     </div>
                                 </div>
@@ -218,14 +218,14 @@
                                 <img src="assets/images/team/01.jpg" alt="thumb">
                             </div>
                             <div class="team-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-facebook-f"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-whatsapp"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-youtube"></i></a>
                             </div>
                             <div class="team-content">
                                 <div class="team-bio">
-                                    <h5><a href="teacher-single.html">Angela Vigil</a></h5>
+                                    <h5><a href="javaScript:void(0);">Angela Vigil</a></h5>
                                     <span>A. N. M. Teacher</span>
                                 </div>
                             </div>
@@ -238,14 +238,14 @@
                                 <img src="assets/images/team/02.jpg" alt="thumb">
                             </div>
                             <div class="team-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-facebook-f"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-whatsapp"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-youtube"></i></a>
                             </div>
                             <div class="team-content">
                                 <div class="team-bio">
-                                    <h5><a href="teacher-single.html">Arihant kumar</a></h5>
+                                    <h5><a href="javaScript:void(0);">Arihant kumar</a></h5>
                                     <span>B. Sc. Teacher</span>
                                 </div>
                             </div>
@@ -258,14 +258,14 @@
                                 <img src="assets/images/team/03.jpg" alt="thumb">
                             </div>
                             <div class="team-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-facebook-f"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-whatsapp"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-youtube"></i></a>
                             </div>
                             <div class="team-content">
                                 <div class="team-bio">
-                                    <h5><a href="teacher-single.html">Ashish kumar</a></h5>
+                                    <h5><a href="javaScript:void(0);">Ashish kumar</a></h5>
                                     <span>M. Sc. Teacher</span>
                                 </div>
                             </div>
@@ -278,14 +278,14 @@
                                 <img src="assets/images/team/04.jpg" alt="thumb">
                             </div>
                             <div class="team-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-facebook-f"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-whatsapp"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="javaScript:void(0);"><i class="fab fa-youtube"></i></a>
                             </div>
                             <div class="team-content">
                                 <div class="team-bio">
-                                    <h5><a href="teacher-single.html">Ophelia D</a></h5>
+                                    <h5><a href="javaScript:void(0);">Ophelia D</a></h5>
                                     <span>O. T. Trainer</span>
                                 </div>
                             </div>
@@ -412,7 +412,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="contact.html" class="theme-btn mt-5">Learn More<i class="fas fa-arrow-right-long"></i></a>
+                                    <a href="contact.php" class="theme-btn mt-5">Learn More<i class="fas fa-arrow-right-long"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -434,9 +434,7 @@
                         <div class="site-heading text-center">
                             <span class="site-title-tagline"> Testimonials</span>
                             <h2 class="site-title text-dark">What Our Students <span>Say's</span></h2>
-                            <p class="text-white">It is a long established fact that a reader will be distracted by the
-                                readable content of
-                                a page when looking at its layout.</p>
+                            <p class="text-dark">A transformative experience! The course provided practical skills and deep knowledge, preparing me for a successful career.</p>
                         </div>
                     </div>
                 </div>

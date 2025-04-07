@@ -7,52 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title>G. N. M. | <?php echo $heading;?></title>
+    <title>B. O. T. | <?php echo $heading;?></title>
     <?php include('include/css.php');?>
     </head>
-
     <body>
     <?php include('include/header.php');?>
 
          <!-- breadcrumb -->
          <div class="site-breadcrumb" style="background: url(assets/images/bg/anm_banner.jpg)">
             <div class="container">
-                <h2 class="breadcrumb-title">G. N. M. [ General Nursing and Midwifery ]</h2>
+                <h2 class="breadcrumb-title"> B. O. T. </h2>
                 <ul class="breadcrumb-menu">
                     <li><a href="index.php">Home</a></li>
-                    <li class="active">G. N. M.</li>
+                    <li class="active">B. O. T.</li>
                 </ul>
             </div>
         </div>
         <!-- breadcrumb end -->
 
         <!-- about area -->
-        <div class="about-area py-5">
+        <div class="about-area py-5 mt-4">
         <div class="container">
+            <h2 class="site-title"style="font-size: 35px;">B. O. T.<span> [ Bachelor of Occupational Therapy ]</span> </h2>
             <div class="row g-4 align-items-center">
-            <div class="col-lg-7">
-                <div class="about-right wow fadeInRight" data-wow-delay=".25s">
-                <div class="site-heading mb-3">
-                    <h2 class="site-title"style="font-size: 35px;">
-                    G. N. M. <span> [ General Nursing and Midwifery ] </span> </h2>
-                </div>
-                <p class="about-text text-justify">
-                General Nursing and Midwifery (G.N.M.) is a vital medical specialty that focuses on providing comprehensive care to the sick, with a special emphasis on maternity care, supporting mothers throughout pregnancy and childbirth. As a key part of the healthcare sector, G.N.M. professionals play a crucial role in maintaining the smooth functioning of healthcare institutions such as hospitals.
-                </p>
-                <p class="about-text text-justify mt-4">
-                At <b>Ashoka Nursing & Paramedical College</b>, the G.N.M. program offers a well-rounded curriculum covering subjects like Anatomy & Physiology, Biological Science, Microbiology, Behavioral Science, Sociology, Psychology, Fundamentals of Nursing, and First Aid. This diverse coursework equips students with the essential knowledge and practical skills needed to deliver effective, compassionate, and professional care, preparing them for rewarding careers in various healthcare settings.
-                </p>
-                </div>
+            <div class="col-lg-7 ">
+            <div class="about-right wow fadeInRight" data-wow-delay=".25s">
+            <div class="site-heading mb-3">
+            </div>
+            <p class="about-text text-justify">
+            <b>Ashoka Nursing & Paramedical College</b> offers the Bachelor of Occupational Therapy (B.O.T.) program, designed to prepare students for rewarding careers in rehabilitative healthcare. This comprehensive course covers essential subjects such as anatomy, physiology, psychology, and therapeutic techniques, equipping students with the knowledge to help individuals with physical, mental, or developmental challenges regain independence in daily life. The curriculum integrates theoretical learning with hands-on clinical experience, ensuring graduates are well-prepared for real-world healthcare settings.
+            </p>
+            <p class="about-text text-justify mt-4">
+            With expert faculty and modern facilities, students at Ashoka Nursing & Paramedical College develop strong clinical, critical thinking, and compassionate care skills. Graduates of the B.O.T. program are ready to work in hospitals, rehabilitation centers, schools, and community organizations, playing a vital role in supporting individuals with disabilities to achieve independence and improve their quality of life.
+            </p>
+            </div>
             </div>
 
             <div class="col-lg-1"></div>
 
             <div class="col-lg-4">
-                <div class="wow fadeInLeft" data-wow-delay=".25s">
+                <div class="wow fadeInLeft mt-4" data-wow-delay=".25s">
                 <div class="about-img">
                     <div class="row g-4">
-                    <div class="col-md-6" style="width: 100%">
-                        <img class="img-1" src="assets/images/course-img/02.jpg" alt="" />
+                    <div class="col-md-6 pt-2" style="width: 100%">
+                        <img class="img-1" src="assets/images/course-img/13.jpg" alt="" />
                     </div>
                     </div>
                 </div>
@@ -77,7 +75,7 @@
             <div class="col-md-6" style="width: 100%">
             <div class="position-relative bg-info py-3 px-3">
             <img src="assets/images/anm.jpg" alt="" class="img-fluid rounded-3" style="z-index: -2;">
-            <p class="text-center mt-3 font-weight-6 text-white">Best G. N. M College In BIHAR</p>
+            <p class="text-center mt-3 font-weight-6 text-white">B. O. T. [ Bachelor of Occupational Therapy ]</p>
             </div>
             </div>
             </div>
@@ -122,9 +120,6 @@
             </div>
             </div>
             <!-- about area end -->
-
-
-
 
    <?php include('include/all_courses.php');?>
    <?php include('include/footer.php');?>

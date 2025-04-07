@@ -7,20 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title>G. N. M. | <?php echo $heading;?></title>
+    <title>B. P. T. | <?php echo $heading;?></title>
     <?php include('include/css.php');?>
     </head>
-
     <body>
     <?php include('include/header.php');?>
 
          <!-- breadcrumb -->
          <div class="site-breadcrumb" style="background: url(assets/images/bg/anm_banner.jpg)">
             <div class="container">
-                <h2 class="breadcrumb-title">G. N. M. [ General Nursing and Midwifery ]</h2>
+                <h2 class="breadcrumb-title"> B. P. T. </h2>
                 <ul class="breadcrumb-menu">
                     <li><a href="index.php">Home</a></li>
-                    <li class="active">G. N. M.</li>
+                    <li class="active">B. P. T.</li>
                 </ul>
             </div>
         </div>
@@ -31,18 +30,17 @@
         <div class="container">
             <div class="row g-4 align-items-center">
             <div class="col-lg-7">
-                <div class="about-right wow fadeInRight" data-wow-delay=".25s">
-                <div class="site-heading mb-3">
-                    <h2 class="site-title"style="font-size: 35px;">
-                    G. N. M. <span> [ General Nursing and Midwifery ] </span> </h2>
-                </div>
-                <p class="about-text text-justify">
-                General Nursing and Midwifery (G.N.M.) is a vital medical specialty that focuses on providing comprehensive care to the sick, with a special emphasis on maternity care, supporting mothers throughout pregnancy and childbirth. As a key part of the healthcare sector, G.N.M. professionals play a crucial role in maintaining the smooth functioning of healthcare institutions such as hospitals.
-                </p>
-                <p class="about-text text-justify mt-4">
-                At <b>Ashoka Nursing & Paramedical College</b>, the G.N.M. program offers a well-rounded curriculum covering subjects like Anatomy & Physiology, Biological Science, Microbiology, Behavioral Science, Sociology, Psychology, Fundamentals of Nursing, and First Aid. This diverse coursework equips students with the essential knowledge and practical skills needed to deliver effective, compassionate, and professional care, preparing them for rewarding careers in various healthcare settings.
-                </p>
-                </div>
+            <div class="about-right wow fadeInRight" data-wow-delay=".25s">
+            <div class="site-heading mb-3">
+            <h2 class="site-title"style="font-size: 35px;"> B. P. T. <span>[ Bachelor of Physiotherapy ]</span> </h2>
+            </div>
+            <p class="about-text text-justify">
+            The Bachelor of Physiotherapy (B.P.T.) program at <b>Ashoka Nursing & Paramedical College</b> is an undergraduate course designed to prepare students for a career in physiotherapy. It covers key subjects like human anatomy, biomechanics, physiotherapy techniques, rehabilitation, and patient care, with a balance of theoretical knowledge and hands-on clinical experience.
+            </p>
+            <p class="about-text text-justify mt-4">
+            The program emphasizes practical training in hospitals, rehabilitation centers, sports facilities, and community health settings. With expert faculty and modern facilities, students develop strong clinical skills and compassionate care, preparing them for careers as physiotherapists, rehabilitation specialists, sports therapists, and healthcare educators.
+            </p>
+            </div>
             </div>
 
             <div class="col-lg-1"></div>
@@ -52,7 +50,7 @@
                 <div class="about-img">
                     <div class="row g-4">
                     <div class="col-md-6" style="width: 100%">
-                        <img class="img-1" src="assets/images/course-img/02.jpg" alt="" />
+                        <img class="img-1" src="assets/images/course-img/10.jpg" alt="" />
                     </div>
                     </div>
                 </div>
@@ -77,7 +75,7 @@
             <div class="col-md-6" style="width: 100%">
             <div class="position-relative bg-info py-3 px-3">
             <img src="assets/images/anm.jpg" alt="" class="img-fluid rounded-3" style="z-index: -2;">
-            <p class="text-center mt-3 font-weight-6 text-white">Best G. N. M College In BIHAR</p>
+            <p class="text-center mt-3 font-weight-6 text-white">B. P. T. [ Bachelor of Physiotherapy ]</p>
             </div>
             </div>
             </div>
@@ -122,9 +120,6 @@
             </div>
             </div>
             <!-- about area end -->
-
-
-
 
    <?php include('include/all_courses.php');?>
    <?php include('include/footer.php');?>
