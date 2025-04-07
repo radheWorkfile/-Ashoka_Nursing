@@ -1,5 +1,5 @@
     <!DOCTYPE html>
-    <?php include('default.php');?>
+
     <html lang="en">
     <head>
     <meta charset="UTF-8">
@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title>Admission | <?php echo $company;?></title>
+    <?php include('default.php');?>
     <?php include('include/css.php');?>
     </head>
 

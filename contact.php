@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php include('default.php');?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,7 @@
     <meta name="keywords" content="">
     <!-- title -->
     <title>Contact Us | <?php echo $heading;?></title>
+    <?php include('default.php');?>
     <?php include('include/css.php');?>
 </head>
 <body>
