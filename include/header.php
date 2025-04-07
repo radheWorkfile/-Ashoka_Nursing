@@ -34,10 +34,7 @@
                         <img src="<?php echo $logo;?>" alt="logo">
                     </a>
                     <div class="mobile-menu-right">
-                        <div class="search-btn">
-                            <button type="button" class="nav-right-link search-box-outer"><i
-                                    class="far fa-search"></i></button>
-                        </div>
+                      
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-mobile-icon"><i class="far fa-bars"></i></span>
@@ -126,15 +123,4 @@
     <!-- header area end -->
 
 
-    <!-- popup search -->
-    <div class="search-popup">
-        <button class="close-search"><span class="far fa-times"></span></button>
-        <form action="#">
-            <div class="form-group">
-                <input type="search" name="search-field" placeholder="Search Here..." required>
-                <button type="submit"><i class="far fa-search"></i></button>
-            </div>
-        </form>
-    </div>
-    <!-- popup search end -->
-    <main class="main">
+    <main class="main" id="main-id-section">
