@@ -111,7 +111,7 @@
                         </ul>
                         <div class="nav-right">
                             <div class="nav-right-btn mt-2">
-                                <a href="application-form.html" class="theme-btn"><span
+                                <a href="application-form.php" class="theme-btn"><span
                                         class="fal fa-pencil"></span>Apply Now</a>
                             </div>
                         </div>
