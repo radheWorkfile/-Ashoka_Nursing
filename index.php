@@ -394,7 +394,7 @@
                             <div class="enroll-right wow fadeInUp" data-wow-delay=".25s">
                                 <div class="skill-content">
                                     <div class="site-heading mb-3">
-                                        <h2 class="site-title text-white">
+                                        <h2 class="site-title text-white"style="color:white;">
                                             Explore Your <span>Creativity And Talent</span> With Us
                                         </h2>
                                     </div>
