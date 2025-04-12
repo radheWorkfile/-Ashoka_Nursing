@@ -1,7 +1,7 @@
 <!-- header area -->
 <header class="header">
     <?php include('default.php'); ?>
-    <link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo $favicon;?>" type="image/x-icon">
     <div class="header-top">
         <div class="container">
             <div class="header-top-wrap">
